@@ -11,16 +11,16 @@
 <body class="bg-slate-900">
 
     <div class="doc-app">
-        <div class="overlay hidden h-screen w-full z-[60] fixed backdrop-blur-sm bg-slate-900/70"></div>
+        <div class="overlay hidden h-screen w-full z-60 fixed backdrop-blur-xs bg-slate-900/70"></div>
         
-        <div class="hidden search-modal fixed w-full max-w-2xl bg-slate-900 z-[60] left-1/2 -translate-x-1/2 top-20 px-8">
+        <div class="hidden search-modal fixed w-full max-w-2xl bg-slate-900 z-60 left-1/2 -translate-x-1/2 top-20 px-8">
             <div class="flex items-center relative">
                 <label for="search" class="text-slate-400 absolute left-4">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                     </svg>  
                 </label>
-                <input type="text" class="search-input text-slate-200 flex-grow bg-slate-800 hover:bg-slate-700 py-4 px-14 rounded-md w-full max-w-full border-t border-slate-400/15 text-sm focus:outline-none" placeholder="Search documentation">
+                <input type="text" class="search-input text-slate-200 grow bg-slate-800 hover:bg-slate-700 py-4 px-14 rounded-md w-full max-w-full border-t border-slate-400/15 text-sm focus:outline-hidden" placeholder="Search documentation">
                 <button class="search-close bg-slate-600 text-slate-400 uppercase p-1.5 text-[8px] rounded-md absolute right-4">Esc</button>
             </div>
         </div>
@@ -78,7 +78,7 @@
         </header>
 
         <!-- Responsive Menu -->
-        <nav class=" responsive-menu hidden fixed top-4 right-4 z-[80] bg-slate-800 rounded-lg p-8 max-w-80 w-full">
+        <nav class=" responsive-menu hidden fixed top-4 right-4 z-80 bg-slate-800 rounded-lg p-8 max-w-80 w-full">
             <button class=" menu-close text-slate-400 absolute right-8 top-8">
                 <svg viewBox="0 0 10 10" class="w-2.5 h-2.5 overflow-visible"><path d="M0 0L10 10M10 0L0 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
             </button>
@@ -95,7 +95,7 @@
                     <div class="current-icon absolute left-2">
                     <svg viewBox="0 0 24 24" fill="none" class="w-6 h-6 mr-2 hidden dark:block"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.715 15.15A6.5 6.5 0 0 1 9 6.035C6.106 6.922 4 9.645 4 12.867c0 3.94 3.153 7.136 7.042 7.136 3.101 0 5.734-2.032 6.673-4.853Z" class="fill-transparent"></path><path d="m17.715 15.15.95.316a1 1 0 0 0-1.445-1.185l.495.869ZM9 6.035l.846.534a1 1 0 0 0-1.14-1.49L9 6.035Zm8.221 8.246a5.47 5.47 0 0 1-2.72.718v2a7.47 7.47 0 0 0 3.71-.98l-.99-1.738Zm-2.72.718A5.5 5.5 0 0 1 9 9.5H7a7.5 7.5 0 0 0 7.5 7.5v-2ZM9 9.5c0-1.079.31-2.082.845-2.93L8.153 5.5A7.47 7.47 0 0 0 7 9.5h2Zm-4 3.368C5 10.089 6.815 7.75 9.292 6.99L8.706 5.08C5.397 6.094 3 9.201 3 12.867h2Zm6.042 6.136C7.718 19.003 5 16.268 5 12.867H3c0 4.48 3.588 8.136 8.042 8.136v-2Zm5.725-4.17c-.81 2.433-3.074 4.17-5.725 4.17v2c3.552 0 6.553-2.327 7.622-5.537l-1.897-.632Z" class="fill-slate-400"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M17 3a1 1 0 0 1 1 1 2 2 0 0 0 2 2 1 1 0 1 1 0 2 2 2 0 0 0-2 2 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 1 1 0-2 2 2 0 0 0 2-2 1 1 0 0 1 1-1Z" class="fill-slate-400"></path></svg>
                     </div>
-                    <select name="" id="" class="appearance-none focus:outline-none bg-inherit text-slate-200 font-medium">
+                    <select name="" id="" class="appearance-none focus:outline-hidden bg-inherit text-slate-200 font-medium">
                         <option value="">Light</option>
                         <option value="">Dark</option>
                         <option value="">System</option>
@@ -112,7 +112,7 @@
             <div class="max-w-8xl mx-auto relative">
 
                
-                <div class= "sidebar hidden bg-slate-800 z-[60] lg:z-10 top-0 left-0 pt-8 lg:pt-0 px-8 lg:pl-0 pl-8 lg:pr-8 lg:left-auto lg:block fixed xl:px-8 w-[19rem] lg:top-14 lg:bg-transparent bottom-0 h-auto text-white overflow-y-auto ">
+                <div class= "sidebar hidden bg-slate-800 z-60 lg:z-10 top-0 left-0 pt-8 lg:pt-0 px-8 lg:pl-0 pl-8 lg:pr-8 lg:left-auto lg:block fixed xl:px-8 w-[19rem] lg:top-14 lg:bg-transparent bottom-0 h-auto text-white overflow-y-auto ">
                     <button class=" sidebar-close lg:hidden text-slate-400 absolute right-8 top-10">
                         <svg viewBox="0 0 10 10" class="w-2.5 h-2.5 overflow-visible"><path d="M0 0L10 10M10 0L0 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
                     </button>
@@ -129,7 +129,7 @@
                             <span class="text-slate-400 text-xs absolute right-3">⌘K</span>
                         </div>
                         <!-- Gradient spacing -->
-                        <div class="h-8 bg-gradient-to-b from-slate-900"></div>
+                        <div class="h-8 bg-linear-to-b from-slate-900"></div>
                     </div>
                     <!-- Main Sidebar Menu -->
                     <nav>
