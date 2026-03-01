@@ -28,7 +28,7 @@ Det här är en **statisk demo**, vilket betyder:
 - länkar/sektioner är främst för layout och känsla (doc-site look & feel)
 
 ## Live demo
-https://lollolicense.github.io/doc-template/
+https://lollolicense.github.io/tailwind-doc-practice/
 
 ## Kör lokalt
 1. Klona repot
